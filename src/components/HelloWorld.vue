@@ -6,16 +6,16 @@
     </h3>
     <p>
       <a href="https://vk.com/alevtinamuz">
-        <img src="../assets/vk_link.gif"/>
+        <img src="../static/vk_link.gif"/>
       </a>
       <a href="https://github.com/alevtinamuz">
-        <img src="../assets/github_link.gif"/>
+        <img src="../static/github_link.gif"/>
       </a>
       <a href="https://t.me/alevtinamuz">
-        <img src="../assets/telegram_link.gif"/>
+        <img src="../static/telegram_link.gif"/>
       </a>
       <a href="https://www.instagram.com/alevtinamuzz">
-        <img src="../assets/instagram_link.gif"/>
+        <img src="../static/instagram_link.gif"/>
       </a>
     </p>
   </div>
