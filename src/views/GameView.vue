@@ -1,9 +1,9 @@
 <template>
     <div id="app">
-      <button class="glow-on-hover" type="button" @click="getY">Загадать</button>     
-      <div class="info" id="info">Загадано число до 100:</div>
+      <button class="glow-on-hover" type="button" @click="getY">Make a number</button>     
+      <div class="info" id="info">A number up to 100 has been guessed:</div>
       <input v-model="answer" id="answer">
-      <button class="glow-on-hover" type="button" @click="checkAnswer">Ответить</button>
+      <button class="glow-on-hover" type="button" @click="checkAnswer">Answer</button>
       <div class="response" v-show="response !== ''">{{ response }}</div>
     </div>
 </template>
@@ -26,13 +26,13 @@
   
       checkAnswer(){
         if( parseInt(this.answer) > parseInt(this.randomNum) ){
-          this.response = 'Ваше число больше загаданного. Попробуйте еще раз!'
+          this.response = 'Your number is bigger than the one you made. Try again!'
         }
         else if( parseInt(this.answer) < parseInt(this.randomNum) ){
-          this.response = 'Ваше число меньше загаданного. Попробуйте еще раз!'
+          this.response = 'Your number is less than the one you made up. Try again!'
         }
         else {
-          this.response = 'Поздравляем! Вы угадали число!'
+          this.response = 'You guessed the number!'
         } 
       }
   
