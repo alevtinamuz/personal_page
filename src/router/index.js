@@ -19,6 +19,12 @@ const routes = [
         name: 'about',
         meta: {layout: 'default'},
         component: () => import('../views/AboutView.vue')
+      },
+      {
+        path: '/surprise',
+        name: 'surprise',
+        meta: {layout: 'default'},
+        component: () => import('../views/GameView.vue')
       }
     ]
   }

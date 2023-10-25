@@ -40,11 +40,6 @@
         <div class="img_title">
           <img :src="back2" alt="">
         </div>
-        <div class="img_title" style="">
-          <code>
-              {{ scrollX }}
-          </code>
-        </div>
       </div>
       </scroll-parallax>
     </div>

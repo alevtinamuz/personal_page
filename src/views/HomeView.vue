@@ -1,6 +1,8 @@
 <template>
   <div v-motion-slide-right>
-    <img :src="require('@/static/lion.gif')"/>
+    <router-link to="/surprise">
+      <img :src="require('@/static/lion.gif')"/>
+    </router-link>
     <h1>Alevtina Muzychenko</h1>
     <h3>
       My social accounts:
